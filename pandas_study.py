@@ -129,7 +129,8 @@ print('\n\n')
 
 ### Pandas的文件读写 ###
 # 其实，Pandas用的最多的还是读取CSV文件
-iris_csv = pd.read_csv('~/Desktop/iris.csv', index_col=0)
+iris_csv = pd.read_csv('~/Desktop/iris.csv', index_col=None)
+
 print('读取到的数据类型：')
 print(type(iris_csv))
 print('\n')
@@ -139,4 +140,8 @@ print(iris_csv)
 print('\n')
 
 
+print(iris_csv.columns)
+print('\n')
 
+print(iris_csv.mean())
+print('\n')
