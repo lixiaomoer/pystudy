@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 np.random.seed(47)
 s = pd.Series(np.random.randint(1, 10, 5))
